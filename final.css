@@ -1,0 +1,68 @@
+html{
+    background-image: linear-gradient(rgba(170, 157, 255, 1), rgb(90, 74, 163));
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+div{
+    background-color: rgba(35, 28, 45, 0.899);
+    margin: 0px auto;
+    height: 400px;
+    width: 300px;
+    border-radius: 7%;
+    margin-top: 10%;
+    box-shadow: 1px 1px 10px black;
+}
+p{
+    color: aliceblue;
+    margin: 0px;
+}
+#header{
+    font-size: larger;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(170, 157, 255, 1);
+    transition: .3s;
+    margin: 10px;
+    font-size: larger;
+}
+button:hover{
+    background-color: rgb(196, 187, 252);
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding-left: 20px;
+    margin: 0px;
+    padding-left: 10px;
+}
+input{
+    background-color: rgba(170, 157, 255, 0.222);
+    border-radius: 20px;
+    height: 30px;
+    width: 240px;
+    border: 0; 
+    transition: .3s;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+input:hover{
+    background-color: rgba(170, 157, 255, 0.429);
+}
+form{
+    margin-left: 30px;
+}
+#people{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#add{
+    margin-top: 16px;
+}
